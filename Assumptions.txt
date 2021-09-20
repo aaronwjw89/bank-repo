@@ -1,0 +1,7 @@
+Assumptions
+1) The commands, login, topup and pay are case sensitive (only accepts lower case)
+2) Client names are unique
+3) Amount does not handle decimal places
+4) Unable to top up or pay negative amount and 0
+5) If payer has 0 balance, will print transferred 0 to payee during pay command and increase debt amount
+6) User is unable to pay him/herself
